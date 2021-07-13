@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengumuman Kelulusan</title>
+</head>
+<body>
+    <script>
+       var namaMahasiswa = prompt("Masukkan Nama Anda", 0) ;
+       var nilaiMahasiswa = prompt("Masukkan Nilai Anda", 0);
+       
+       if(nilaiMahasiswa < 70){
+           document.write("Anda dinyatakan tidak lulus :(");
+       } else if(nilaiMahasiswa => 70){
+           document.write("Selamat anda lulus !")
+       }
+       document.write("<p>" + "Nama : " + namaMahasiswa + "<br>" + "Nilai :" + nilaiMahasiswa + "</p>")
+    </script>
+</body>
+</html>
